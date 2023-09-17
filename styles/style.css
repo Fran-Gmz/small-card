@@ -1,0 +1,60 @@
+@import url("./variable.css");
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: 'letra Outfit', Times, serif;
+}
+.codeQR{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Light);
+}
+.card{
+    height: 450px;
+    width: 300px;
+    background-color: var(--White);
+    border-radius: 20px;
+}
+.imagen{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.QR{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+}
+.text{
+    height: 35%;
+    width: 100%;
+    padding: 10px 35px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;  
+}
+.titulo{
+    text-align: center;font-family: 'Outfit', sans-serif;
+    color: var(--Darkblue);
+    font-family: 'Outfit', sans-serif;
+}
+.paragraph{
+    text-align: center;
+    font-size: 15px;
+    color: var(--Grayishblue);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+}
